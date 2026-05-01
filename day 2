@@ -112,6 +112,37 @@ int main (){
 }
 }
 
+//problem 7 nested if else condition
+//smart home lighting
+//day__motion(yes-no)__light off
+//night__motion (yes _100%)(no__100)
+
+
+#include <iostream>
+
+int main() {
+   string dayOrNight;
+   bool motionDetected;
+   
+   cout<<"is it Day or Night?...";
+   cin>>dayornight;
+   cout<<"motiondetected?..."
+   cin>>motiondetected;
+   
+   if(dayornight=="night"||dayornight=="night"){
+       if(motiondetected){
+           cout<<"turn on the led with 100% brightness";
+           
+       }
+       else {
+           cout<<"turn on the led with 10% brightness";
+       }
+   }
+        else{
+            cout<<"turn off the light...";
+        }
+}
+
 
 
 
