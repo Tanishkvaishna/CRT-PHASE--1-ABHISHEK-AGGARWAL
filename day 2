@@ -33,3 +33,26 @@ if(age>=50);
 }
 }
 }
+
+
+
+
+// problem 4
+// using ternory operator
+#include <iostream>
+  using namespace std;
+int main() {
+    int a,b;
+     int max_number;
+      cout<<"enter 1 mumber:";
+      cin>>a;
+       cout<<"enter 2 number:";
+        cin>>b;
+        
+    
+    // logic for ternary operator
+        max_number=(a>b)? a:b;
+        cout << max_number;
+        return 0;
+}
+    
