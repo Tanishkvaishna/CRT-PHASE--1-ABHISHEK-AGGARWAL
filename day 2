@@ -115,9 +115,61 @@ int main (){
 
 //problem 6 
 
+//customer support IVR system
+// 1 = support
+// 2 = for billing
+// 3 = technical issue
+//4 = talk to agent
+
+#include <iostream>
+using namespace std;
+
+int main()
+{
+    int choice;
+    cin >> choice;
+    
+    switch(choice) {
+        
+        case 1:
+        cout<<" transferring call to the support team... ";
+        break;
+        
+        case 2:
+        cout<<" transferring call to the billing and accountant department... ";
+        break;
+        
+        case 3:
+        cout<<" connecting call to the technical team... ";
+        break;
+        
+        case 4:
+        cout<<" connecting call to the agent... ";
+        break;
+        
+        default:
+        cout<<" enter a valid choice";
+        
+    }
+    
+    
+    return 0;
+}
 
 
-#inclu
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 //problem 7 nested if else condition
