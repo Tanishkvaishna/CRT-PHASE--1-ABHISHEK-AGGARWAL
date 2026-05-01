@@ -13,3 +13,23 @@ using namespase std;
    }
           return 0;
  }
+
+
+
+
+//problem 2 nested else statement
+
+#include <iostream>
+using namespase std;
+int main(){
+  int age;
+    cin>>age;
+if(age>=18);
+if(age>=50);
+  cout"senior citizen eligible for vote...";
+{
+   else {
+          cout"not eligible for vote...":
+}
+}
+}
