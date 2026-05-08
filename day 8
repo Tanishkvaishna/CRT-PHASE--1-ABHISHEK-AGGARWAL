@@ -55,3 +55,31 @@ int main() {
     obj1.drive();
     obj1.speed();
 }
+
+
+
+// problem 1.3
+// hierarchical inheritance
+#include <iostream>
+using namespace std;
+
+
+ class Vehicle {
+ public:    
+     void start() {
+        cout <<"Vehicle starts" <<"\n";
+     }
+ };
+
+ class bike : public Vehicle {
+ public:
+     void drive() {
+         cout << "bike is running" << "\n";
+     }
+ };
+ class Car : public Vehicle {
+     public:
+      void drive(){
+          cout<<"car is running"<<"\n";
+      }
+ };
